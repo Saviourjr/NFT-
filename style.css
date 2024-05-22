@@ -1,0 +1,64 @@
+body{background-color:hsl(217, 54%, 11%);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;}
+.container{background-color: hsl(216, 50%, 16%);
+width: 340px;
+border-radius: 8px;}
+.card{
+    width: 300px;
+    padding-left: 19px;
+    padding-top: 18px;  
+}
+.card-image{
+height: 280px;
+width: 300px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+h1{color: hsl(0, 0%, 100%);
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:bold;
+      font-size: 25px;
+      font-style: normal;
+      cursor: pointer;
+    }  
+    h1:hover{color: hsl(178, 100%, 50%);} 
+p{font-size: 18px;
+color: hsl(215, 51%, 70%);}
+ .Eth{color:hsl(178, 100%, 50%) ;
+padding-right: 70px;
+padding-left:.10px;
+font-family: "Montserrat", sans-serif;
+      font-optical-sizing:inherit;
+      font-weight:bold;
+      font-style: normal;
+      font-size: 19px;
+}
+
+ span{color: hsl(215, 51%, 70%); 
+padding-right:8px;
+padding-left: 10px;}
+.days{display: flex;
+align-items: center;
+}
+ hr{background-color: hsl(215, 32%, 27%);
+height: 1px;
+border: 0;}
+.image-avatar{
+height: 60px;
+display: flex;
+align-items: center;
+color: white;
+word-spacing:.25px;
+padding-bottom: 10px;
+}
+.name{color: white;
+    cursor: pointer;}
+    .name:hover{color: hsl(178, 100%, 50%);}
+
+
